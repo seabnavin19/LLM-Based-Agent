@@ -12,10 +12,11 @@ It is a demo app of AI travel agent that we user hotel and event API as a tool t
    pip install -r requirements.txt
    ```
 4. add API key in .env
+ ```  
 GEMINI_API_KEY = ""
 SERP_API_KEY = "3"
-
-5. start project
+```
+6. start project
    ```
    streamlit run app.py
    ```
